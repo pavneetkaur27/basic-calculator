@@ -46,7 +46,7 @@ export const fetchCovidData = (data) => dispatch => {
     startLoader(dispatch,1);
     
     axios("https://api.covid19api.com/country/"+data.country_id).then((res) => {
-      console.log(res);
+    //console.log(res);
       if (res ) {
         dispatch({
           type: "FETCH_COVID_DATA",
