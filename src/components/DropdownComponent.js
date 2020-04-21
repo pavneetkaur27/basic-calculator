@@ -23,11 +23,11 @@ class Dashboard extends Component {
             selected_country : e.target.value
         })
         this.props.fetchCovidData({country_id : e.target.value})
-        var self=this;
-        setInterval( function(){
-          self.props.fetchCovidData({country_id : self.state.selected_country})
-      }, 1000
-      )  
+      //   var self=this;
+      //   setInterval( function(){
+      //     self.props.fetchCovidData({country_id : self.state.selected_country})
+      // }, 1000
+      // )  
   } 
 
  

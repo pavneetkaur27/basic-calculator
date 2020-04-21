@@ -188,3 +188,28 @@ html::-webkit-scrollbar-thumb {
 		height: auto;
 	}
 }
+
+.result-section{
+	background-color: white;
+	width: 220px;
+	height: 48px;
+	border: 1px solid rgb(167, 170, 170);
+	margin-bottom: 20px;
+	padding: 16px;
+}
+
+.calculator-contanier{
+	/* border: 1px solid rgb(218, 219, 219); */
+	margin-top: 100px;
+	width: 256px;
+	padding: 16px;
+	background-color: rgb(227, 231, 231);
+}
+
+.btn-style{
+	width: 48px;
+	border-radius: 4px;
+	padding:4px 14px;
+	margin: 4px;
+	border: 1px solid rgb(167, 170, 170);
+}
