@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import CardComponent from './CardComponent';
 
 class MainNavbar extends Component {
   constructor(props){
